@@ -1,0 +1,32 @@
+[
+      {
+        "id": 1,
+        "Mangees": 4000,
+        "Viequotidienne": 2000,
+        "Sport": 1500
+      },
+      {
+        "id": 2,
+        "Mangees": 3800,
+        "Viequotidienne": 1870,
+        "Sport": 1410
+      },
+      {
+        "id": 3,
+        "Mangees": 4200,
+        "Viequotidienne": 2100,
+        "Sport": 1610
+      },
+      {
+        "id": 4,
+        "Mangees": 3500,
+        "Viequotidienne": 1750,
+        "Sport": 1250
+      },
+      {
+        "id": 5,
+        "Mangees": 4300,
+        "Viequotidienne": 2300,
+        "Sport": 1800
+      }
+]
