@@ -128,12 +128,11 @@ label {
   font-weight: bold;
 }
 
-#donnees {
-  color: white;
-  font-weight: bold;
-}
-
 #infos {
   color: white;
   background: orange;
+}
+
+li {
+  color : purple;
 }
