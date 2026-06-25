@@ -5,8 +5,11 @@ import { Component } from 'react';
 import React from "react";
 import {Carousel} from "react-bootstrap";
 
-import Donnees from './calories.json';
+import Donnees from './calories';
 import { useEffect } from 'react';
+
+import ShoppingList from './Shopping';
+import MyCart from './Cart';
 
 
 
@@ -225,7 +228,9 @@ const MesDonnees = () => {
   return (
     <h3>Les voyages coûtent en énergie :</h3>,
       Donnees.map((jour) => (
-        <p id="donnees"> Jour {jour.id} - Calories repas: {jour.Mangees}, calories dépensée dans la vie quotidienne: {jour.Viequotidienne} et dans le sport: {jour.Sport} </p>
+        <li key={jour.id}>
+          Jour {jour.id} - Calories repas: {jour.Mangees}, calories dépensée dans la vie quotidienne: {jour.Viequotidienne} et dans le sport: {jour.Sport}
+        </li>
       ))
   );
 }
@@ -274,6 +279,10 @@ export default function App() {
       <MesDonnees />
       <br/>
       <Chinois />
+      <br/>
+      <ShoppingList/>
+      <br/>
+      <MyCart/>
       <br/>
     </div>
   );
